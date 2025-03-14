@@ -1,4 +1,7 @@
+@use "./base/_fonts.scss";
+@use "./base/_variables.scss";
 @use "./blocks/_header.scss";
+@use "./blocks/_footer.scss";
 
 body {
   background-color: darkblue;
@@ -8,4 +11,5 @@ body {
   border: 3px solid red;
   border-radius: 50%;
   display: block;
+  margin-inline: auto;
 }
