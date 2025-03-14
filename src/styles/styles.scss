@@ -1,18 +1,18 @@
-@import "./base/_normolize";
-@import "./base/_fonts.scss";
+@use "./base/_normolize";
+@use "./base/_fonts.scss";
 
-@import "./base/_mixins.scss";
-@import "./base/_media.scss";
-@import "./base/_variables.scss";
-@import "./base/_utils.scss";
-@import "./base/_globals.scss";
+// @use "./base/_mixins.scss";
+// @use "./base/_media.scss";
+@use "./base/_variables.scss";
+// @use "./base/_utils.scss";
+// @use "./base/_globals.scss";
 //blocks
-// @import "./blocks/_button.scss";
-// @import "./blocks/_burger-button.scss";
-@import "./blocks/_header.scss";
-@import "./blocks/_footer.scss";
-// @import "./blocks/_cross-button.scss";
-// @import "./blocks/_mobile-overlay.scss";
+// @use "./blocks/_button.scss";
+// @use "./blocks/_burger-button.scss";
+@use "./blocks/_header.scss";
+@use "./blocks/_footer.scss";
+// @use "./blocks/_cross-button.scss";
+// @use "./blocks/_mobile-overlay.scss";
 
 body {
   background-color: darkblue;
