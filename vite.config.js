@@ -1,16 +1,16 @@
 import { defineConfig } from 'vite';
 
 export default {
-	base: '/vite-test-project',
+	base: '/Positivus',
 	css: {
-		devSourcemap: true, // Включить source maps для CSS/SCSS в режиме разработки
+		devSourcemap: true,
 		preprocessorOptions: {
 			scss: {
-				sourceMap: true, // Включить source maps для SCSS
+				sourceMap: true,
 			},
 		},
 	},
 	build: {
-		sourcemap: true, // Включить source maps для продакшена
+		sourcemap: true,
 	},
 }
