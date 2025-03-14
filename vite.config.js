@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite';
 
 export default {
-	base: '/Positivus',
+	base: '/vite-test-project',
 	css: {
 		devSourcemap: true,
 		preprocessorOptions: {
